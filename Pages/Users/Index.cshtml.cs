@@ -26,4 +26,4 @@ namespace RPC.Pages_Users
             User = await _context.User.ToListAsync();
         }
     }
-}
+} 
