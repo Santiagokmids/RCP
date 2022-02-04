@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "vkcoX+e9f78+B2dH3qs4Z9GrHgUzKKJOZeYweAzKcxw=",
+=======
+  "Hash": "uQd7ecJOaemDVkmD4UzJKz/XEPHF2rcywB8X+HdMATs=",
+>>>>>>> 1aa736549a1357d2441ed33dc4ca86c096193d93
   "Source": "RPC",
   "BasePath": "_content/RPC",
   "Mode": "Default",
@@ -102,6 +106,7 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\visual-workspace\\RCP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "RPC",
       "SourceType": "Discovered",
@@ -239,6 +244,9 @@
     },
     {
       "Identity": "D:\\visual-workspace\\RCP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+=======
+      "Identity": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+>>>>>>> 1aa736549a1357d2441ed33dc4ca86c096193d93
       "SourceId": "RPC",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\visual-workspace\\RCP\\wwwroot\\",
@@ -646,7 +654,147 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\visual-workspace\\RCP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+=======
+      "Identity": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "RPC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\",
+      "BasePath": "_content/RPC",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "RPC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\",
+      "BasePath": "_content/RPC",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "RPC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\",
+      "BasePath": "_content/RPC",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "RPC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\",
+      "BasePath": "_content/RPC",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "RPC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\",
+      "BasePath": "_content/RPC",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "RPC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\",
+      "BasePath": "_content/RPC",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "RPC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\",
+      "BasePath": "_content/RPC",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "RPC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\",
+      "BasePath": "_content/RPC",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+>>>>>>> 1aa736549a1357d2441ed33dc4ca86c096193d93
       "SourceId": "RPC",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\visual-workspace\\RCP\\wwwroot\\",
@@ -867,12 +1015,16 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\visual-workspace\\RCP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+=======
+      "Identity": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+>>>>>>> 1aa736549a1357d2441ed33dc4ca86c096193d93
       "SourceId": "RPC",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\visual-workspace\\RCP\\wwwroot\\",
       "BasePath": "_content/RPC",
-      "RelativePath": "lib/jquery/dist/jquery.js",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -881,15 +1033,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\visual-workspace\\RCP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+=======
+      "Identity": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+>>>>>>> 1aa736549a1357d2441ed33dc4ca86c096193d93
       "SourceId": "RPC",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\visual-workspace\\RCP\\wwwroot\\",
       "BasePath": "_content/RPC",
-      "RelativePath": "lib/jquery/dist/jquery.min.js",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -898,15 +1054,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\visual-workspace\\RCP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+=======
+      "Identity": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+>>>>>>> 1aa736549a1357d2441ed33dc4ca86c096193d93
       "SourceId": "RPC",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\visual-workspace\\RCP\\wwwroot\\",
       "BasePath": "_content/RPC",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
+      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -915,6 +1075,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
@@ -933,6 +1094,9 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+>>>>>>> 1aa736549a1357d2441ed33dc4ca86c096193d93
     },
     {
       "Identity": "D:\\visual-workspace\\RCP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
@@ -1020,12 +1184,16 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\visual-workspace\\RCP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+=======
+      "Identity": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+>>>>>>> 1aa736549a1357d2441ed33dc4ca86c096193d93
       "SourceId": "RPC",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\visual-workspace\\RCP\\wwwroot\\",
       "BasePath": "_content/RPC",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1034,15 +1202,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\visual-workspace\\RCP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+=======
+      "Identity": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+>>>>>>> 1aa736549a1357d2441ed33dc4ca86c096193d93
       "SourceId": "RPC",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\visual-workspace\\RCP\\wwwroot\\",
       "BasePath": "_content/RPC",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1051,15 +1223,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\visual-workspace\\RCP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+=======
+      "Identity": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+>>>>>>> 1aa736549a1357d2441ed33dc4ca86c096193d93
       "SourceId": "RPC",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\visual-workspace\\RCP\\wwwroot\\",
       "BasePath": "_content/RPC",
-      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1068,7 +1244,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Identity": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "RPC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Santiago\\source\\repos\\RPC\\wwwroot\\",
+      "BasePath": "_content/RPC",
+      "RelativePath": "lib/jquery/LICENSE.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     }
   ]
 }

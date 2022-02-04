@@ -2,31 +2,28 @@
 @model RPC.Pages_Users.IndexModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Tabla";
 }
 
-<h1>Index</h1>
+<h1>Integrantes de la red de programación competitiva</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create">Añadir integrante</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.User[0].Password)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.User[0].UserName)
+                @Html.DisplayNameFor(model => model.User[0].FirstName)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.User[0].LastName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.User[0].Birthday)
+                @Html.DisplayNameFor(model => model.User[0].UserName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.User[0].photo)
+                @Html.DisplayNameFor(model => model.User[0].Birthday)
             </th>
             <th></th>
         </tr>
@@ -35,24 +32,21 @@
 @foreach (var item in Model.User) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Password)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UserName)
+                @Html.DisplayFor(modelItem => item.FirstName)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.LastName)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.Birthday)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.photo)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.FirstName">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.FirstName">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.FirstName">Delete</a>
+                <a asp-page="./Edit" asp-route-id="@item.FirstName">Editar</a> |
+                <a asp-page="./Details" asp-route-id="@item.FirstName">Detalles</a> |
+                <a asp-page="./Delete" asp-route-id="@item.FirstName">Eliminar</a>
             </td>
         </tr>
 }
