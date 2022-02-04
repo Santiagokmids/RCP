@@ -1,7 +1,26 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddDbContext<RazorPagesUserContext>(options =>
+
+    options.UseSqlite(builder.Configuration.GetConnectionString("RazorPagesUserContext")));
+
+
+if (builder.Environment.IsDevelopment())
+{
+    builder.Services.AddDbContext<RazorPagesUserContext>(options =>
+        options.UseSqlite(builder.Configuration.GetConnectionString("RazorPagesUserContext")));
+}
+else
+{
+    builder.Services.AddDbContext<RazorPagesUserContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("RazorPagesUserContext")));         
+}
 
 var app = builder.Build();
 
