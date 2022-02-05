@@ -14,7 +14,11 @@ html {
 }
 
 body {
+<<<<<<< HEAD
+  margin-bottom: 60px;
+=======
     margin-bottom: 60px;
+>>>>>>> 587a743ea7d874455042049d7e2c751b9d4caa67
 }
 
 .mainContainer {
@@ -83,9 +87,15 @@ body {
     margin-bottom: 22px;
 }
 
+<<<<<<< HEAD
+    .label:focus-visible {
+        outline: -webkit-focus-ring-color auto 0px;
+    }
+=======
 .label:focus-visible {
     outline: -webkit-focus-ring-color auto 0px;
 }
+<<<<<<< HEAD
 
 .button {
     margin: 10px;
@@ -131,3 +141,6 @@ body {
     justify-content: center;
 }
 
+=======
+>>>>>>> 587a743ea7d874455042049d7e2c751b9d4caa67
+>>>>>>> dad9e082c962eb69642f4bae866cb4303e912a95
