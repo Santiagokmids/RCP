@@ -9,49 +9,63 @@
 
 <h4>Integrante</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="User.FirstName" class="control-label"></label>
-                <input asp-for="User.FirstName" class="form-control" />
-                <span asp-validation-for="User.FirstName" class="text-danger"></span>
-            </div>
-             <div class="form-group">
-                <label asp-for="User.LastName" class="control-label"></label>
-                <input asp-for="User.LastName" class="form-control" />
-                <span asp-validation-for="User.LastName" class="text-danger"></span>
-            </div>
-             <div class="form-group">
-                <label asp-for="User.UserName" class="control-label"></label>
-                <input asp-for="User.UserName" class="form-control" />
-                <span asp-validation-for="User.UserName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="User.Password" class="control-label"></label>
-                <input asp-for="User.Password" type="password" class="form-control" />
-                <span asp-validation-for="User.Password" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="User.Birthday" class="control-label"></label>
-                <input asp-for="User.Birthday" class="form-control" />
-                <span asp-validation-for="User.Birthday" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                 <br/>
-                <label asp-for="User.photo" class="control-label"></label>
-                <input type = "file"/>
-                <br/>
-            </div>
-            <div class="form-group">
-                <br/>
-                <input type="submit" value="Añadir integrante" class="btn btn-primary" />
-            </div>
-        </form>
+
+<section class="mainUserContainer">
+    <div class="imageUI">
     </div>
-</div>
+    <div class="logNewContainer">
+        <div class="newLogin">
+            <div class="col-md-4">
+                <form method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="User.FirstName" class="control-label"></label>
+                        <input asp-for="User.FirstName" class="form-control" />
+                        <span asp-validation-for="User.FirstName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="User.LastName" class="control-label"></label>
+                        <input asp-for="User.LastName" class="form-control" />
+                        <span asp-validation-for="User.LastName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="User.UserName" class="control-label"></label>
+                        <input asp-for="User.UserName" class="form-control" />
+                        <span asp-validation-for="User.UserName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="User.Password" class="control-label"></label>
+                        <input asp-for="User.Password" type="password" class="form-control" />
+                        <span asp-validation-for="User.Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="User.Birthday" class="control-label"></label>
+                        <input asp-for="User.Birthday" class="form-control" />
+                        <span asp-validation-for="User.Birthday" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="User.photo" class="control-label"></label>
+                        <input asp-for="User.photo" class="form-control" />
+                        <span asp-validation-for="User.photo" class="text-danger"></span>
+                         <input type="file" style = "position : absolute ; top : 54.5%; left : 40%"/>
+                    </div>
+                    <div class="form-group">
+                        <br />
+                        <input type="submit" value="Añadir integrante" class="btn btn-primary" />
+                        <br />
+                    </div>
+                    <div>
+                        <br />
+                        <a input type="submit" class="btn btn-primary" href="https://localhost:7163/">Salir </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
 }

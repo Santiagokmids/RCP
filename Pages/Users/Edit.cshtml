@@ -5,16 +5,16 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Actualizar información de un integrante</h1>
+<h1>Actualizar información de los integrantes de la red de programación</h1>
 
-<h4>Integrante</h4>
+<h4>Integreante</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="User.FirstName" />
-           <div class="form-group">
+            <div class="form-group">
                 <label asp-for="User.FirstName" class="control-label"></label>
                 <input asp-for="User.FirstName" class="form-control" />
                 <span asp-validation-for="User.FirstName" class="text-danger"></span>
@@ -24,35 +24,27 @@
                 <input asp-for="User.LastName" class="form-control" />
                 <span asp-validation-for="User.LastName" class="text-danger"></span>
             </div>
-             <div class="form-group">
+            <div class="form-group">
                 <label asp-for="User.UserName" class="control-label"></label>
                 <input asp-for="User.UserName" class="form-control" />
                 <span asp-validation-for="User.UserName" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="User.Password" class="control-label"></label>
-                <input asp-for="User.Password" type="password" class="form-control" />
-                <span asp-validation-for="User.Password" class="text-danger"></span>
-            </div>
+           
             <div class="form-group">
                 <label asp-for="User.Birthday" class="control-label"></label>
                 <input asp-for="User.Birthday" class="form-control" />
                 <span asp-validation-for="User.Birthday" class="text-danger"></span>
             </div>
+           
             <div class="form-group">
-                <label asp-for="User.photo" class="control-label"></label>
-                <input asp-for="User.photo" class="form-control" />
-                <span asp-validation-for="User.photo" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Guardar nuevos datos" class="btn btn-primary" />
+                <input type="submit" value="Actualizar informacíón" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-page="./Index">Lista de integrantes de la red de programación</a>
+    <a asp-page="./Main">Volver a la lista de integrantes de la red de programación</a>
 </div>
 
 @section Scripts {

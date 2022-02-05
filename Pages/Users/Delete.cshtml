@@ -5,14 +5,14 @@
     ViewData["Title"] = "Delete";
 }
 
-<h1>Eliminar</h1>
+<h1>Eliminar integrante de la red de programación</h1>
 
-<h3>¿Está seguro que desea eliminar a @Html.DisplayFor(model => model.User.UserName) de la red de programación?</h3>
+<h3>¿Estás seguro que quieres eliminar a @Html.DisplayFor(model => model.User.UserName) de la red de programación?</h3>
 <div>
     <h4>Integrante</h4>
     <hr />
     <dl class="row">
-        <dt class="col-sm-2">
+         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.User.FirstName)
         </dt>
         <dd class="col-sm-10">
@@ -44,6 +44,6 @@
     <form method="post">
         <input type="hidden" asp-for="User.FirstName" />
         <input type="submit" value="Eliminar integrante" class="btn btn-danger" /> |
-        <a asp-page="./Index">Lista de integrantes de la red de programación</a>
+        <a asp-page="./Main">Volver a la lista de integrantes de la red de programación</a>
     </form>
 </div>

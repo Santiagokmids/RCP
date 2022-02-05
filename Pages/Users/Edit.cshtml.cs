@@ -66,7 +66,7 @@ namespace RPC.Pages_Users
                 }
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("./Main");
         }
 
         private bool UserExists(string id)

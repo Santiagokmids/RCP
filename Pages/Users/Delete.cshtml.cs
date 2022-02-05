@@ -53,7 +53,7 @@ namespace RPC.Pages_Users
                 await _context.SaveChangesAsync();
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("./Main");
         }
     }
 }
