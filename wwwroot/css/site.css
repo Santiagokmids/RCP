@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .mainContainer {
@@ -33,8 +33,12 @@ body {
     display: flex;
 }
 
+.logContainer--biggest {
+    height: 875px; 
+}
+
 .loginImage {
-    background-color: #432589;
+    background-image: linear-gradient( 109.6deg, rgba(118,12,99,1) 11.2%, rgba(71,11,75,1) 98.6% );
     width: 60%;
     height: 100%;
     border-radius: 20px 0 0 20px;
@@ -90,10 +94,68 @@ body {
 
 .button {
     margin: 10px;
-    background-color: #332258;
+    background-image: linear-gradient( 109.6deg, rgba(118,12,99,1) 11.2%, rgba(71,11,75,1) 98.6% );
     color: white;
     border-radius: 20px;
     padding: 10px;
     width: 150px;
     outline: none;
+    border-width: 0px;
+}
+
+.newLogin {
+    background-color: #e9ecef;
+    width: 40%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.newLoginImage {
+    background-image: linear-gradient( 109.6deg, rgba(118,12,99,1) 11.2%, rgba(71,11,75,1) 98.6% );
+    width: 60%;
+    height: 100%;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+}
+
+.col-md-4 {
+    width: 51.333333%;
+}
+
+.btn-primary {
+    margin: 10px;
+    background-image: linear-gradient( 109.6deg, rgba(118,12,99,1) 11.2%, rgba(71,11,75,1) 98.6% );
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    outline: none;
+    border-width: 0px;
+}
+
+.createContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-control {
+    background-color: #0000ff00;
+    margin: 10px;
+    color: white;
+    border-width: 0px;
+    width: 221px;
+    border-bottom: 2px solid black;
+    border-style: solid;
+    margin-bottom: 22px;
+}
+
+.form-control:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
 }

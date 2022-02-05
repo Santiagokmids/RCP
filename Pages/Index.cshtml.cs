@@ -15,5 +15,10 @@ namespace RPC.Pages
         {
 
         }
+
+        public void Submit() { 
+        
+        }
+
     }
 }
