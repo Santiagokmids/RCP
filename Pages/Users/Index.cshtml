@@ -7,9 +7,6 @@
 
 <h1>Integrantes de la red de programación competitiva</h1>
 
-<p>
-    <a asp-page="Create">Añadir integrante</a>
-</p>
 <table class="table">
     <thead>
         <tr>
@@ -44,7 +41,7 @@
                 @Html.DisplayFor(modelItem => item.Birthday)
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.FirstName">Editar</a> |
+                <a asp-page="./Edit" asp-route-id="@item.FirstName">Actualizar</a> |
                 <a asp-page="./Details" asp-route-id="@item.FirstName">Detalles</a> |
                 <a asp-page="./Delete" asp-route-id="@item.FirstName">Eliminar</a>
             </td>
@@ -52,3 +49,4 @@
 }
     </tbody>
 </table>
+ <a type = "submit" class = "btn btn-primary" href="https://localhost:7163/" style = "position : absolute;right : 10%;top : 16%"> Log Out </a>

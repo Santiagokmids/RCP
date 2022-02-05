@@ -23,7 +23,7 @@ namespace RPC.Pages_Users
 
         public async Task OnGetAsync()
         {
-            User = await _context.User.ToListAsync();
+           User = await _context.User.ToListAsync();
         }
     }
 }
