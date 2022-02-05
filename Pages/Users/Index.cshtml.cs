@@ -19,7 +19,7 @@ namespace RPC.Pages_Users
             _context = context;
         }
 
-        public IList<User> User { get; set; }
+        public IList<User> User { get;set; }
 
         public async Task OnGetAsync()
         {

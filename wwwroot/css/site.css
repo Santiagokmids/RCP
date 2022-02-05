@@ -44,7 +44,7 @@ body {
 }
 
 .login {
-    background-color: white;
+    background-color: #e9ecef;
     width: 40%;
     height: 100%;
     border-radius: 0 20px 20px 0;
@@ -76,12 +76,58 @@ body {
     background-color: #0000ff00;
     margin: 10px;
     color: black;
-    padding: 20px;
+    padding: 10px;
     border-width: 0px;
     border-bottom: 2px solid black;
     border-style: solid;
+    margin-bottom: 22px;
 }
 
 .label:focus-visible {
     outline: -webkit-focus-ring-color auto 0px;
 }
+
+.button {
+    margin: 10px;
+    background-color: #332258;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    outline: none;
+}
+
+.mainUserContainer {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.newUser {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.logNewContainer {
+    width: 1150px;
+    height: 600px;
+    background-color: #e9ecef;
+    border-radius: 23px;
+    box-shadow: black 7px 8px 10px 0px;
+    display: flex;
+}
+
+.newLogin {
+    background-color: #432589;
+    width: 40%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
