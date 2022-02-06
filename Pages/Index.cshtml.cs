@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using RPC.Pages_Users;
 
 namespace RPC.Pages
 {
@@ -10,15 +11,11 @@ namespace RPC.Pages
         public IndexModel(ILogger<IndexModel> logger)
         {
             _logger = logger;
+
         }
         public void OnGet()
         {
 
         }
-
-        public void Submit() { 
-        
-        }
-
     }
 }
