@@ -7,6 +7,14 @@
     "mssql1": {
       "type": "mssql",
       "connectionId": "ConnectionStrings"
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:RPCContextConnection"
+    },
+    "mssql3": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:RPCDbContextConnection"
     }
   }
 }

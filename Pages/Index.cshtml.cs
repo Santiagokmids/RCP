@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using RPC.Pages_Users;
 
 namespace RPC.Pages
 {
@@ -13,7 +14,6 @@ namespace RPC.Pages
         {
             _logger = logger;
             _context = context;
-            Console.Write("Hola Mundo Sobre Linea");
         }
         public void OnGet()
         {
