@@ -5,48 +5,45 @@
     ViewData["Title"] = "Delete";
 }
 
-<h1>Delete</h1>
+<h1>Eliminar integrante de la red de programación</h1>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>¿Estás seguro que quieres eliminar a @Html.DisplayFor(model => model.User.UserName) de la red de programación?</h3>
 <div>
-    <h4>User</h4>
+    <h4>Integrante</h4>
     <hr />
     <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.User.Password)
+         <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.User.FirstName)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.User.Password)
+            @Html.DisplayFor(model => model.User.FirstName)
         </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.User.UserName)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.User.UserName)
-        </dd>
+
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.User.LastName)
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.User.LastName)
         </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.User.UserName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.User.UserName)
+        </dd>
+        
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.User.Birthday)
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.User.Birthday)
         </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.User.photo)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.User.photo)
-        </dd>
     </dl>
     
     <form method="post">
         <input type="hidden" asp-for="User.FirstName" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a href ="./Index">Back to List</a>
+        <input type="submit" value="Eliminar integrante" class="btn btn-danger" /> |
+        <a asp-page="./Main">Volver a la lista de integrantes de la red de programación</a>
     </form>
 </div>

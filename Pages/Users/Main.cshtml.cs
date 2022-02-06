@@ -12,6 +12,7 @@ namespace RPC.Pages_Users
 {
     public class IndexModel : PageModel
     {
+
         private readonly RazorPagesUserContext _context;
 
         public IndexModel(RazorPagesUserContext context)
@@ -26,4 +27,4 @@ namespace RPC.Pages_Users
             User = await _context.User.ToListAsync();
         }
     }
-} 
+}

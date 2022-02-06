@@ -10,7 +10,6 @@ builder.Services.AddDbContext<RazorPagesUserContext>(options =>
 
     options.UseSqlite(builder.Configuration.GetConnectionString("RazorPagesUserContext")));
 
-
 if (builder.Environment.IsDevelopment())
 {
     builder.Services.AddDbContext<RazorPagesUserContext>(options =>

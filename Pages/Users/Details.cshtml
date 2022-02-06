@@ -5,45 +5,42 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Detalles</h1>
 
 <div>
     <h4>User</h4>
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.User.Password)
+            @Html.DisplayNameFor(model => model.User.FirstName)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.User.Password)
+            @Html.DisplayFor(model => model.User.FirstName)
         </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.User.UserName)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.User.UserName)
-        </dd>
+
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.User.LastName)
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.User.LastName)
         </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.User.UserName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.User.UserName)
+        </dd>
+        
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.User.Birthday)
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.User.Birthday)
         </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.User.photo)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.User.photo)
-        </dd>
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.User.FirstName">Edit</a> |
-    <a asp-page="./Index">Back to List</a>
+    <a asp-page="./Edit" asp-route-id="@Model.User.FirstName">Actualizar datos del integrante</a> |
+    <a asp-page="./Main">Volver a la lista de integrantes de la red de programación</a>
 </div>

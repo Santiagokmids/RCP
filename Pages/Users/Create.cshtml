@@ -14,19 +14,18 @@
     <section class="logContainer logContainer--biggest">
         <div class="newLogin">
             <div class="col-md-4">
-                <form method="post" class = "createContainer">
+                <form method="post" class = "createContainer" enctype="multipart/form-data">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="form-group">
-                        
-                        <input asp-for="User.UserName" class="form-control" placeholder = "Usuario"/>
+                        <input asp-for="User.UserName" class="form-control" />
                         <span asp-validation-for="User.UserName" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <input asp-for="User.Password" class="form-control" placeholder = "Contraseña"/>
+                        <input asp-for="User.Password" class="form-control" />
                         <span asp-validation-for="User.Password" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <input asp-for="User.FirstName" class="form-control" placeholder = "Nombre"/>
+                        <input asp-for="User.FirstName" class="form-control" />
                         <span asp-validation-for="User.FirstName" class="text-danger"></span>
                     </div>
                     <div class="form-group">
@@ -34,24 +33,34 @@
                         <span asp-validation-for="User.LastName" class="text-danger"></span>
                     </div>
                     <div class="form-group">
+                        <input asp-for="User.UserName" class="form-control" />
+                        <span asp-validation-for="User.UserName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input asp-for="User.Password" type="password" class="form-control" />
+                        <span asp-validation-for="User.Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
                         <label asp-for="User.Birthday" class="control-label"></label>
                         <input asp-for="User.Birthday" class="form-control" />
                         <span asp-validation-for="User.Birthday" class="text-danger"></span>
                     </div>
-                    <div class="form-group">
-                        <input asp-for="User.photo" class="form-control" placeholder = "Foto"/>
-                        <span asp-validation-for="User.photo" class="text-danger"></span>
-                    </div>
 
+                    <div class="form-group">
+                        <label asp-for="User.photo" class="control-label"></label>
+                        <input asp-for="User.photo" class="form-control" />
+                        <span asp-validation-for="User.photo" class="text-danger"></span>
+                        <input asp-for="User.photo" class="form-control" id="file-name" />
+                        <input type="file" accept="image/*" style="position : absolute ; top : 54.5%; left : 40%" id="file" name="file" onchange="showname()" />
+                    </div>
+                    <div class="form-group">
+                        <br />
+                        <input type="submit" value="Añadir integrante" class="btn btn-primary" />
+                        <br />
+                    </div>
                     <div>
-                        <div class="form-group">
-                            <input type="submit" value="Añadir integrante" class="btn btn-primary" />
-                        </div>
-                        <div>
-                            <a input type="submit" class="btn btn-primary" href="https://localhost:7163/">
-                                Salir
-                            </a>
-                        </div>
+                        <br />
+                        <a input type="submit" class="btn btn-primary" href="https://localhost:7163/">Salir </a>
                     </div>
                 </form>
             </div>
@@ -60,6 +69,13 @@
         </div>
     </section>
 </section>
+
+<script>
+    function showname () {
+       var name = document.getElementById('file');
+       $("#file-name").val(name.files.item(0).name);
+     };
+</script>
 
 @section Scripts {
     @{

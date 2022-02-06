@@ -2,25 +2,23 @@
 @model RPC.Pages_Users.IndexModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Table";
 }
 
-<h1>Index</h1>
+<h1>Integrantes de la red de programación competitiva</h1>
 
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
+<h4>Integrantes</h4>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.User[0].UserName)
+                @Html.DisplayNameFor(model => model.User[0].FirstName)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.User[0].LastName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.User[0].FirstName)
+                @Html.DisplayNameFor(model => model.User[0].UserName)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.User[0].Birthday)
@@ -29,27 +27,28 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model.User)
-        {
+        @foreach (var item in Model.User){
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.UserName)
+                    @Html.DisplayFor(modelItem => item.FirstName)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.LastName)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.FirstName)
+                    @Html.DisplayFor(modelItem => item.UserName)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Birthday)
                 </td>
                 <td>
-                    <a asp-page="./Edit" asp-route-id="@item.FirstName">Edit</a> |
-                    <a asp-page="./Details" asp-route-id="@item.FirstName">Details</a> |
-                    <a asp-page="./Delete" asp-route-id="@item.FirstName">Delete</a>
+                    <a asp-page="./Edit" asp-route-id="@item.FirstName">Editar</a> 
+                    <a asp-page="./Details" asp-route-id="@item.FirstName">Detalles</a> 
+                    <a asp-page="./Delete" asp-route-id="@item.FirstName">Eliminar</a>
                 </td>
             </tr>
-        }
+       }
     </tbody>
 </table>
+
+<a input type="submit" class="btn btn-primary" style ="position : absolute; top:16%;right:15%" href="https://localhost:7163/"> Log out </a>
