@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e3ldz5mUO+rDlsl4BSoxRUUwAM2mPsubR+uAKm5fi0lgn0yWIuUhB4QHRAgB7/ctK5YUChg9VWMkr0NMvV84yg==",
+  "dgSpecHash": "hOKonwc1KutIHTWpOdiZAUFbONGIhxFjm0hSwXQpnpsWemw9Zna4BtVN82HGT5ntRGvaEmiq1GAESywbSizq/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Santiago\\Source\\Repos\\RCP\\RPC.csproj",
+  "projectFilePath": "C:\\Users\\Santiago\\source\\repos\\RCP\\RPC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Santiago\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Santiago\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

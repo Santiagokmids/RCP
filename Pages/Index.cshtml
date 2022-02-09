@@ -3,7 +3,12 @@
 @{
     ViewData["Title"] = "Home page";
 }
-
+@if (!Model.isLogged)
+{
+    <script>
+        window.alert("Contraseña o nombre de usuario inválido");
+    </script>
+}
 <div class="text-center">
     <section class="mainContainer">
         <section class="logContainer">
@@ -23,17 +28,26 @@
                     Inicia sesión
                 </p>
 
-                <form method = "post">
-                    <input type="text" name="email" id="user" class="form-control" placeholder="Usuario" required>
-                    <br />
-                    <input type="password" class="form-control" placeholder="Contraseña" required>
-                    <br />
-                    <input type="submit" value="Iniciar sesión" class="button">
-                    <br />
-                    <a href="https://localhost:7163/Users/Create">
-                        <input type="button" value="Crear cuenta" class="button">
-                    </a>
+                <form method="post">
+                    <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+
+                    <div class="form-group row">
+                        <input type="text" asp-for="UserRPC.UserName" class="form-control" placeholder="Usuario" required/>
+                    </div>
+
+                    <div class="form-group row">
+                        <input type="password" asp-for="UserRPC.Password" class="form-control" placeholder="Contraseña" required/><br>
+                    </div>
+
+                    <div>
+                        <input type="submit" class="btn btn-primary" value="Iniciar Sesión" />
+                    </div>
                 </form>
+
+                <form method="get" action="/Users/Create">
+                    <button type="submit" class="btn btn-primary">Crear cuenta</button><br><br>
+                </form>
+
             </div>
         </section>
     </section>

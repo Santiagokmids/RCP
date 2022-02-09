@@ -27,7 +27,8 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model.User){
+        @foreach (var item in Model.User)
+        {
             <tr>
                 <td>
                     @Html.DisplayFor(modelItem => item.FirstName)
@@ -42,13 +43,14 @@
                     @Html.DisplayFor(modelItem => item.Birthday)
                 </td>
                 <td>
-                    <a asp-page="./Edit" asp-route-id="@item.FirstName">Editar</a> 
-                    <a asp-page="./Details" asp-route-id="@item.FirstName">Detalles</a> 
+                    <a asp-page="./Edit" asp-route-id="@item.FirstName">Editar</a>
+                    <a asp-page="./Details" asp-route-id="@item.FirstName">Detalles</a>
                     <a asp-page="./Delete" asp-route-id="@item.FirstName">Eliminar</a>
                 </td>
             </tr>
-       }
+        }
     </tbody>
 </table>
 
-<a input type="submit" class="btn btn-primary" style ="position : absolute; top:16%;right:15%" href="https://localhost:7163/"> Log out </a>
+<img src="http://assets.stickpng.com/images/585e4beacb11b227491c3399.png" width = "90" height = "90" style = "position : absolute; top:63px; right:322px"/>
+<a input type="submit" class="btn btn-primary" style="position : absolute; top:16%;right:15%" href="https://localhost:7163/"> Log out </a>

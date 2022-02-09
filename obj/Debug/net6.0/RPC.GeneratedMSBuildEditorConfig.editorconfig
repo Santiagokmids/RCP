@@ -8,61 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RPC
 build_property.RootNamespace = RPC
-build_property.ProjectDir = C:\Users\Santiago\Source\Repos\RCP\
+build_property.ProjectDir = C:\Users\Santiago\source\repos\RCP\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Santiago\Source\Repos\RCP
+build_property.MSBuildProjectDirectory = C:\Users\Santiago\source\repos\RCP
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Santiago/Source/Repos/RCP/Pages/Error.cshtml]
+[C:/Users/Santiago/source/repos/RCP/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Santiago/Source/Repos/RCP/Pages/Index.cshtml]
+[C:/Users/Santiago/source/repos/RCP/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Santiago/Source/Repos/RCP/Pages/Privacy.cshtml]
+[C:/Users/Santiago/source/repos/RCP/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Santiago/Source/Repos/RCP/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Santiago/source/repos/RCP/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Santiago/Source/Repos/RCP/Pages/Users.cshtml]
+[C:/Users/Santiago/source/repos/RCP/Pages/Users.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Santiago/Source/Repos/RCP/Pages/Users/Create.cshtml]
+[C:/Users/Santiago/source/repos/RCP/Pages/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Santiago/Source/Repos/RCP/Pages/Users/Delete.cshtml]
+[C:/Users/Santiago/source/repos/RCP/Pages/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Santiago/Source/Repos/RCP/Pages/Users/Details.cshtml]
+[C:/Users/Santiago/source/repos/RCP/Pages/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Santiago/Source/Repos/RCP/Pages/Users/Edit.cshtml]
+[C:/Users/Santiago/source/repos/RCP/Pages/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Santiago/Source/Repos/RCP/Pages/Users/Main.cshtml]
+[C:/Users/Santiago/source/repos/RCP/Pages/Users/Main.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcTWFpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Santiago/Source/Repos/RCP/Pages/_ViewImports.cshtml]
+[C:/Users/Santiago/source/repos/RCP/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Santiago/Source/Repos/RCP/Pages/_ViewStart.cshtml]
+[C:/Users/Santiago/source/repos/RCP/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Santiago/Source/Repos/RCP/Pages/Shared/_Layout.cshtml]
+[C:/Users/Santiago/source/repos/RCP/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9fzd0w6uyd
