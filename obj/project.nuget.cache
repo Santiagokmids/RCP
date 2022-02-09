@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hOKonwc1KutIHTWpOdiZAUFbONGIhxFjm0hSwXQpnpsWemw9Zna4BtVN82HGT5ntRGvaEmiq1GAESywbSizq/Q==",
+  "dgSpecHash": "e3ldz5mUO+rDlsl4BSoxRUUwAM2mPsubR+uAKm5fi0lgn0yWIuUhB4QHRAgB7/ctK5YUChg9VWMkr0NMvV84yg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Santiago\\source\\repos\\RCP\\RPC.csproj",
+  "projectFilePath": "C:\\Users\\Santiago\\Source\\Repos\\RCP\\RPC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Santiago\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Santiago\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
@@ -193,12 +193,5 @@
     "C:\\Users\\Santiago\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Santiago\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\Santiago\\source\\repos\\RCP\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
