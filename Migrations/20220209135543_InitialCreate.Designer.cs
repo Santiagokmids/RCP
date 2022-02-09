@@ -10,13 +10,13 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace RPC.Migrations
 {
     [DbContext(typeof(RazorPagesUserContext))]
-    [Migration("20220204175501_InitialCreate")]
+    [Migration("20220209135543_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "6.0.1");
+            modelBuilder.HasAnnotation("ProductVersion", "6.0.2");
 
             modelBuilder.Entity("RPC.Models.User", b =>
                 {
